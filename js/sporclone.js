@@ -84,7 +84,9 @@ function tick()
     if (time_remaining < 1)
     {
         end();
-    }
+    } else if (time_remaining < 10{
+		document.getElementById("time").style.color = "#FFFF00";
+	}
 
     // u.
 	time_remaining = time_remaining - 1
